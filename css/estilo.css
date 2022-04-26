@@ -8,12 +8,14 @@
                           'rodape formulario';
     height:100vh;
     font-family:arial;
+    color:#fff;
 }
 
 /* CABEÇALHO */
 header{grid-area:cabecalho;}
 .logo{display:flex; align-items: center; padding:10px 30px;}
 .logo img{width:80px;}
+.logo h1{font-family:verdana; color:#274083;}
 
 /* PRINCIPAL */
 main{grid-area:principal;}
